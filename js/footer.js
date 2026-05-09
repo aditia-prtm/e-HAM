@@ -1,4 +1,4 @@
-let footer = document.getElementById('footer');
+const footer = document.getElementById('footer');
 
 footer.className = "flex";
 

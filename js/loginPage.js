@@ -1,7 +1,6 @@
-let contentPage = document.getElementById('contentPage');
-contentPage.className = "flex justify-center items-center h-screen";
-
-contentPage.innerHTML = `        <div class="bg-transparent backdrop-blur-xs rounded-xl border border-white p-10 min-w-96 w-1/3
+function getLoginPage(){
+    return `
+        <div class="bg-transparent backdrop-blur-xs rounded-xl border border-white p-10 min-w-96 w-1/3
                     flex flex-col justify-center items-center">
             <h1 class="font-bold text-5xl text-blue-800">Login</h1>
             <form action="" class="flex flex-col mt-16 h-full w-full gap-8">
@@ -15,4 +14,6 @@ contentPage.innerHTML = `        <div class="bg-transparent backdrop-blur-xs rou
                 </div>
             </form>
             <button class="mt-10 bg-blue-800 py-3 px-8 w-full text-white rounded-xl cursor-pointer font-semibold">LOGIN</button>
-        </div>`;
+        </div>
+    `;
+}
